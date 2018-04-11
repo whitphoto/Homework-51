@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Homework_51.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Homework_51"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView Name="MenuList" SelectionMode="Multiple" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="340" Margin="10,10,0,0"/>
+        <Button Name="BreakfastButton" Content="Breakfast" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,445,0,0" Click="BreakfastButton_Click"/>
+        <Button Name="LunchButton" Content="Lunch" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,445,0,0" Click="LunchButton_Click"/>
+        <Button Name="DinnerButton" Content="Dinner" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="251,445,0,0" Click="DinnerButton_Click"/>
+        <Button Name="CheckoutButton" Content="Checkout" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,528,0,0" Click="CheckoutButton_Click"/>
+    
+    </Grid>
+</Page>

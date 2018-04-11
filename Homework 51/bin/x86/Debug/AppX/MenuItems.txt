@@ -1,0 +1,20 @@
+b/1Ham and Eggs/9.99
+b/2Corned Beef Hash/8.99
+b/3Eggs Benedict/6.99
+b/4Plain Toast/1.99
+b/5Cold Oatmeal/3.99
+b/6Lots of Bacon/10.99
+l/7BLT Sandwich/9.99
+l/8Cup of Soup/3.99
+l/9Grilled Cheese/7.99
+l/10Cobb Salad/8.99
+l/11Hot Dogs/3.99
+l/12Chicken Fingers/12.99
+l/13Bowl of Chili/3.99
+d/14Entire Chicken/18.99
+d/15Baked Ziti/8.99
+d/16Spaghetti and Meatballs/12.99
+d/17Soup and Salad/6.77
+d/18Steak/22.99
+d/19Ribs/12.22
+d/20Shrimp/14.44

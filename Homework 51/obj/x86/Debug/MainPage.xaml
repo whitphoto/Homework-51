@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Homework_51.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Homework_51"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView x:ConnectionId='1' Name="MenuList" SelectionMode="Multiple" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="340" Margin="10,10,0,0"/>
+        <Button x:ConnectionId='2' Name="BreakfastButton" Content="Breakfast" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,445,0,0"                              />
+        <Button x:ConnectionId='3' Name="LunchButton" Content="Lunch" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,445,0,0"                          />
+        <Button x:ConnectionId='4' Name="DinnerButton" Content="Dinner" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="251,445,0,0"                           />
+        <Button x:ConnectionId='5' Name="CheckoutButton" Content="Checkout" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,528,0,0"                             />
+    
+    </Grid>
+</Page>
+
